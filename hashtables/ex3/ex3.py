@@ -6,7 +6,7 @@ def intersection(arrays):
     cache = {}
 
     for a in arrays:
-        # Loop thru each item in the array
+        # Loop through each item in the array
         for i in a:
             if i in cache:
                 cache[i] += 1
